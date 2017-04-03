@@ -12,7 +12,8 @@ This library provides a Markdown processor written in Swift for OS X and iOS. It
   s.license          = 'MIT'
   s.author           = { "Kristopher Johnson" => "@OldManKris" }
   s.source           = { :git => "git@github.com:kristopherjohnson/Markingbird.git", :tag => s.version.to_s }
-  s.platform = :ios, '8.0'
+  s.osx.deployment_target     = "10.12"
+  s.ios.deployment_target     = "8.0"
   s.requires_arc = true
   s.tvos.deployment_target = '9.0'
 
